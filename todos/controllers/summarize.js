@@ -3,7 +3,7 @@ import dotenv from 'dotenv'
 import { GoogleGenAI } from "@google/genai";
 
 dotenv.config()
-const ai = new GoogleGenAI({ apiKey: 'AIzaSyBOC-YZu2Y0J3Gw1AK-rko60oRb0-7SNSQ' });
+const ai = new GoogleGenAI({ apiKey: process.env.GOOGLE_API_KEY });
 
 
 
