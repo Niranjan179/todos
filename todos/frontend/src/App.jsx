@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
 
-const API_BASE = '';
+const API_BASE = 'https://todos-slfj.onrender.com';
 
 // TodoItem Component
 const TodoItem = ({ todo, onDelete }) => {
