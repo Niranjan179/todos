@@ -6,8 +6,7 @@ export default defineConfig({
   plugins: [react()],
   server: {
     proxy: {
-      '/todos': 'http://localhost:3000',
-      '/summerize': 'http://localhost:3000',
+      
     }
   }
 })
